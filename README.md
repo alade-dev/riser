@@ -23,7 +23,7 @@ Riser is a **Sepolia FHEVM** web application for **ERC-7984 confidential tokens*
 
 ## Live deployment
 
-The production build is hosted at **[https://riser.vercel.app](https://riser.vercel.app)** (Sepolia Zama FHEVM — connect a wallet on chain ID **11155111**). 
+The production build is hosted at **[https://riser-eth.vercel.app](https://riser-eth.vercel.app)** (Sepolia Zama FHEVM — connect a wallet on chain ID **11155111**). 
 
 ---
 

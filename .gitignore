@@ -1,0 +1,67 @@
+# -----------------------------------------------------------------------------
+# Riser — root .gitignore (contracts + frontend + tooling)
+# -----------------------------------------------------------------------------
+
+# --- Environment & secrets (never commit) ---
+.env
+.env.*
+!.env.example
+
+# --- Dependencies ---
+node_modules/
+
+# --- Hardhat / Solidity ---
+cache/
+artifacts/
+typechain-types/
+coverage/
+coverage.json
+.solhintcache
+
+# FHEVM / plugin temporary artifacts (if generated locally)
+fhevmTemp/
+
+# --- Frontend (Vite / React) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# --- Build & TypeScript ---
+dist/
+build/
+*.tsbuildinfo
+*.tgz
+
+# --- Logs & debug ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+
+# --- Editors / IDE ---
+.idea/
+*.swp
+*.swo
+*~
+
+# VS Code: ignore local workspace settings by default (remove line if team shares)
+.vscode/*
+!.vscode/extensions.json
+
+# --- Testing / coverage ---
+.nyc_output/
+junit.xml
+
+# --- Misc ---
+.turbo/
+.temp/
+tmp/
+*.local
